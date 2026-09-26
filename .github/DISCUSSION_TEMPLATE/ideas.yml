@@ -1,0 +1,18 @@
+title: "Idea: "
+labels: ["ideas"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: Share an idea for the playbook.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this matter for operational AI?
+    validations:
+      required: false
+

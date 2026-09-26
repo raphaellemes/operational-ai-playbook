@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/raphaellemes/operational-ai-playbook/discussions
+    about: Use discussions for broad questions, ideas, and open-ended architecture debate.
+

@@ -1,0 +1,18 @@
+title: "Use case: "
+labels: ["use cases"]
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Describe a fictional or sanitized operational AI use case.
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Controls and risks
+      description: What boundaries, logs, or governance would be needed?
+    validations:
+      required: false
+

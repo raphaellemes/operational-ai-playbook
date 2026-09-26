@@ -1,0 +1,28 @@
+name: Example request
+description: Suggest a new fictional operational AI example.
+title: "Example: "
+labels: ["examples"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What operational AI scenario should this example cover?
+      placeholder: "Example: AI agent for field service maintenance prioritization"
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it matters
+      description: What practical problem would this example help explain?
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Suggested controls
+      description: What governance, boundaries, or logs should the example include?
+    validations:
+      required: false
+

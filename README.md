@@ -52,6 +52,24 @@ src/
   demo_decision_log.py
 ```
 
+## Contributions Are Welcome
+
+This project is intentionally open for collaboration.
+
+You can contribute with:
+
+- fictional operational AI use cases;
+- RAG governance patterns;
+- agent boundary examples;
+- decision log improvements;
+- risk and criticality checklists;
+- diagrams;
+- translations;
+- small demos;
+- critiques from real implementation experience.
+
+Start with [CONTRIBUTING.md](CONTRIBUTING.md) and the open issues labeled `good first issue` or `help wanted`.
+
 ## Core Principles
 
 ### 1. Process Before Prompt
@@ -136,7 +154,10 @@ Reason: AI can recommend priority, but execution requires human validation.
 4. Define agent boundaries with the [Agent Charter](templates/agent-charter.md).
 5. Design traceability with the [Decision Log Template](templates/decision-log-template.md).
 
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for the next planned versions and collaboration opportunities.
+
 ## License
 
 MIT License.
-

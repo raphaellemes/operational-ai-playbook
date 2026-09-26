@@ -1,0 +1,20 @@
+name: Bug or correction
+description: Report a bug, typo, broken link, or incorrect statement.
+title: "Fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected correction
+      description: What should it say or do instead?
+    validations:
+      required: false
+
