@@ -18,6 +18,10 @@ Describe what this pull request changes.
 - [ ] This PR does not include personal data.
 - [ ] This PR does not include credentials, tokens, or secrets.
 - [ ] Examples are fictional, public, or properly sanitized.
+- [ ] This PR does not read local folders, private repositories, or user-specific paths.
+- [ ] This PR does not add a self-hosted runner or privileged GitHub Actions workflow.
+- [ ] This PR does not require external credentials to run.
+- [ ] Any network access is documented and optional.
 
 ## Operational AI Relevance
 
@@ -26,4 +30,3 @@ Explain how this helps teams design or operate AI with better process, governanc
 ## Test / Review Notes
 
 If code was added, explain how to run it.
-

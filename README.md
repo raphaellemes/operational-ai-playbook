@@ -70,6 +70,22 @@ You can contribute with:
 
 Start with [CONTRIBUTING.md](CONTRIBUTING.md) and the open issues labeled `good first issue` or `help wanted`.
 
+## Security And Isolation
+
+This is a public repository. It must never depend on private projects, local folders, personal files, credentials, or company-specific data.
+
+Project safety rules:
+
+- no secrets in the repository;
+- no real customer, employee, or company data;
+- no self-hosted GitHub Actions runners;
+- no scripts that read local user folders;
+- no dependency that requires credentials to run;
+- no symlinks or submodules to private repositories;
+- code examples must run with synthetic data only.
+
+See [SECURITY.md](SECURITY.md) for the full security policy.
+
 ## Core Principles
 
 ### 1. Process Before Prompt
