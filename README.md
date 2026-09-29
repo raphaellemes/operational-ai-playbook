@@ -4,9 +4,17 @@ Practical playbook for designing operational AI with RAG, agents, knowledge gove
 
 This repository is a public, vendor-neutral reference for teams that want to move from AI experiments to AI-supported operations.
 
+It helps teams turn an AI idea into a governed operational workflow with clear ownership, boundaries, controls, and evidence before production.
+
 The main idea is simple:
 
 > Good prompts help. Good operating systems make AI useful.
+
+## Start In 30 Minutes
+
+Use [START_HERE.md](START_HERE.md) to evaluate one AI use case and leave with a concrete decision: proceed, revise, or stop.
+
+The guided path covers process ownership, criticality, agent boundaries, source governance, traceability, and the minimum gate before a pilot.
 
 ## Why This Exists
 
@@ -29,6 +37,8 @@ This playbook turns those questions into practical documents, templates, and exa
 ## What Is Inside
 
 ```text
+START_HERE.md
+
 docs/
   01-process-before-ai.md
   02-rag-governance.md
@@ -164,7 +174,7 @@ Reason: AI can recommend priority, but execution requires human validation.
 
 ## Suggested Starting Point
 
-1. Read [Process Before AI](docs/01-process-before-ai.md).
+1. Follow the guided path in [START_HERE.md](START_HERE.md).
 2. Use the [AI Use Case Canvas](templates/ai-use-case-canvas.md).
 3. Classify the workflow with the [Criticality Matrix](docs/04-criticality-matrix.md).
 4. Define agent boundaries with the [Agent Charter](templates/agent-charter.md).
