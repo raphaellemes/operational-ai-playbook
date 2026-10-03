@@ -18,6 +18,10 @@ By the end of this review, you should have:
 
 Use a fictional or sanitized scenario if you are evaluating the playbook publicly.
 
+Open the [30-Minute Operational AI Assessment](templates/30-minute-assessment.md), copy it into your working notes, and use that single worksheet to keep every answer and the final gate decision in one place.
+
+This path is designed for someone who already understands the process being evaluated. If basic process facts are unknown, choose `revise` rather than extending the session until an assumption looks complete.
+
 ## The 30-Minute Path
 
 ### Minutes 0-5: Name The Process
@@ -31,9 +35,11 @@ Write one sentence for each question:
 
 If the team cannot describe the process without mentioning AI, pause here and read [Process Before AI](docs/01-process-before-ai.md).
 
+Record the answers in **Minutes 0-5: Process** in the assessment worksheet.
+
 ### Minutes 5-12: Complete The Use Case Canvas
 
-Open the [AI Use Case Canvas](templates/ai-use-case-canvas.md) and complete at least:
+Use the [AI Use Case Canvas](templates/ai-use-case-canvas.md) as a reference. In the assessment worksheet, complete at least:
 
 - business context;
 - decision or task;
@@ -57,19 +63,23 @@ Ask:
 
 Choose the highest plausible level when evidence is incomplete.
 
+Record the level and its reason in **Minutes 12-18: Criticality** in the assessment worksheet.
+
 ### Minutes 18-24: Define Boundaries And Sources
 
-Use the [Agent Charter](templates/agent-charter.md) when the workflow can call tools or influence actions. Separate every relevant action into:
+Use the [Agent Charter](templates/agent-charter.md) as a reference when the workflow can call tools or influence actions. Separate every relevant action into:
 
 - allowed;
 - human approval required;
 - denied.
 
-If the workflow retrieves knowledge, use [RAG Source Governance](templates/rag-source-governance.md) to name the source owner, scope, freshness rule, and conflict behavior.
+If the workflow retrieves knowledge, review [RAG Source Governance](templates/rag-source-governance.md) to name the source owner, scope, freshness rule, and conflict behavior.
+
+Record only the boundaries and source rules relevant to this use case in **Minutes 18-24: Boundaries And Sources** in the assessment worksheet.
 
 ### Minutes 24-28: Define Evidence
 
-Use the [Decision Log Template](templates/decision-log-template.md) to decide what must be reconstructable later.
+Use the [Decision Log Template](templates/decision-log-template.md) as a reference to decide what must be reconstructable later.
 
 At minimum, retain:
 
@@ -79,6 +89,8 @@ At minimum, retain:
 - model or system version;
 - final decision;
 - human review status when required.
+
+Record the evidence requirements in **Minutes 24-28: Evidence** in the assessment worksheet.
 
 ### Minutes 28-30: Make The Gate Decision
 
@@ -92,6 +104,8 @@ Choose one outcome:
 
 Record the decision and its reason. A decision to stop is a valid operational result.
 
+Complete **Minutes 28-30: Gate Decision** in the assessment worksheet, including the next concrete action and an owner for any unresolved gap.
+
 ## Minimum Review Before A Pilot
 
 - [ ] Process owner is named.
@@ -102,6 +116,7 @@ Record the decision and its reason. A decision to stop is a valid operational re
 - [ ] Success metric is measurable.
 - [ ] Required evidence can be logged.
 - [ ] Fallback path exists.
+- [ ] Gate decision and next action are recorded.
 
 For build, pilot, and production checks, continue with the [Operational AI Rollout Checklist](templates/rollout-checklist.md).
 
