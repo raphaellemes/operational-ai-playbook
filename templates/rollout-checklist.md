@@ -2,6 +2,8 @@
 
 ## Before Build
 
+- [ ] 30-minute operational assessment completed
+- [ ] Initial gate decision is `proceed`
 - [ ] Process owner defined
 - [ ] Use case canvas completed
 - [ ] Criticality classified
@@ -11,13 +13,15 @@
 
 ## Before Pilot
 
-- [ ] Agent charter completed
-- [ ] RAG source governance completed
+- [ ] Agent charter completed when tools or actions are in scope
+- [ ] RAG source governance completed when retrieval is in scope
 - [ ] Human review points defined
 - [ ] Decision log structure defined
 - [ ] Access and permissions reviewed
-- [ ] Synthetic or real validation dataset selected
+- [ ] Synthetic or controlled validation dataset selected
 - [ ] Fallback flow defined
+
+Public examples in this repository must use synthetic or fictional data only. Controlled private data belongs in the implementing organization's secured environment, not in this repository.
 
 ## Before Production
 
@@ -37,4 +41,3 @@
 - [ ] Cost review
 - [ ] User feedback loop
 - [ ] Improvement backlog
-

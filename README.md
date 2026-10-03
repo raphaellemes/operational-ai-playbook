@@ -47,6 +47,7 @@ docs/
   05-decision-logs.md
 
 templates/
+  30-minute-assessment.md
   ai-use-case-canvas.md
   agent-charter.md
   rag-source-governance.md
